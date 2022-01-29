@@ -1,5 +1,6 @@
 import Grass from "./Grass";
 import react, { useState } from "react";
+import style from './Weeds.module.css';
 
 const Weeds = (props) => {
   let weed =[];
@@ -41,10 +42,10 @@ const Weeds = (props) => {
   // console.log(weed);
 
   const context = weed.map((data)=>{
-    return <Grass count={data.count}/>
+    return <Grass count={data.count} date={data.date}/>
   })
 
-  return <div>
+  return <div className={style.weeds}>
     {context}
   </div>
 };

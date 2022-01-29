@@ -1,7 +1,16 @@
+import { useState } from "react";
 import style from "./Grass.module.css";
 
 const Grass = (props) => {
+  const [isEntered, setIsEntered] = useState(false);
+  const mouseEnterHandler = () => {
+    setIsEntered(true);
+  };
+  const mouseLeaveHandler = () => {
+    setIsEntered(false);
+  };
   let color;
+  const description = <div>{`${props.count} contributions on ${props.date}`}</div>;
   if(props.count===0){
     color = style.zero;
   }
@@ -17,6 +26,10 @@ const Grass = (props) => {
   else {
     color = style.four;
   }
-  return <p className={`${style.grass} ${color}`}>{props.count}</p>;
+  const floater = isEntered ? style.able : style.disable
+  return <div className={style.wrapper} onMouseLeave={mouseLeaveHandler}>
+    <div className={`${style.floater} ${floater}`}>{isEntered && description}</div>
+  <p className={`${style.grass} ${color}`} onMouseEnter={mouseEnterHandler} ></p>
+  </div>
 };
 export default Grass;
