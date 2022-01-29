@@ -1,6 +1,30 @@
-p{
+.grass{
   display: inline-block;
   width: 1rem;
-  border-radius: 10px;
-  background-color: #777;
+  height: 1rem;
+  border-radius: 3px;
+  margin: 1px;
+  font-size: small;
+}
+
+.zero {
+  background-color: #D5D5D5;
+  color: #D5D5D5;
+}
+
+.one {
+  background-color: #86E57F;
+  color: #86E57F;
+}
+.two {
+  background-color: #47C83E;
+  color: #47C83E;
+}
+.three {
+  background-color: #008000;
+  color: #008000;
+}
+.four {
+  background-color: #004A00;
+  color: #004A00;
 }

@@ -2,7 +2,7 @@ import Grass from "./Grass";
 import react, { useState } from "react";
 
 const Weeds = (props) => {
-  const [weed, setWeed] = useState([]);
+  let weed =[];
   let i;
   for(i=0;i<84;i++){
     const now = new Date();
@@ -11,18 +11,41 @@ const Weeds = (props) => {
       date : new Date(now.setDate(now.getDate() - i)),
     });
   }
-  console.log(weed);
-  const calDate = (day, today) => {
-    return today - day;
-  };
-  const context = props.data.map((grass)=>{
-    weed.filter((data)=>{
-      // return data.date ===
-    });
+
+  weed.map((data)=>{
+    let sYear = data.date.getFullYear();
+    let sMonth = data.date.getMonth() + 1;
+    let sDate = data.date.getDate();
+  
+    sMonth = sMonth > 9 ? sMonth : "0" + sMonth;
+    sDate  = sDate > 9 ? sDate : "0" + sDate;
+    const result = sYear + "-" + sMonth + "-" + sDate;
+    data.date = result;
+    // if(grass.date === data.date){
+    //   data.count = grass.count;
+    // }
+    
+    // return data.date ===
   });
-  console.log(props.datas);
+
+  console.log(weed);
+  // console.log(props.datas);
+
+  props.datas.map((data)=>{
+    for(i=0;i<84;i++){
+      if(data.date === weed[i].date){
+        weed[i].count = data.count;
+      }
+    }
+  })
+  // console.log(weed);
+
+  const context = weed.map((data)=>{
+    return <Grass count={data.count}/>
+  })
+
   return <div>
-    asd
+    {context}
   </div>
 };
 export default Weeds;
