@@ -73,7 +73,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 일일 Report <01.28 13:00 PM - 02.03 10:00 AM>
 - 작일 완료된 업무
   - FE
-  -   공개 북로그 목록 비동기통신(postman 테스트), 페이지네이션, order 구분 렌더링 (다은)
+      - 공개 북로그 목록 비동기통신(postman 테스트), 페이지네이션, order 구분 렌더링 (다은)
   -   홈 화면 디자인 (다은)
   -   회원정보조회 화면 잔디 구현 (하윤)
   -   회원정보 수정 화면 코드 리팩토링, 유효성 검사 코드 리팩토링 (하윤)
