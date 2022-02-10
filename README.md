@@ -70,12 +70,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 - 작일 완료된 업무
-  - FE
-    - Openvidu-library-react 예제 우리 프로젝트에 적용 성공 (다은)
-    - 회원정보조회 리팩토링 (하윤)
-    - 독서모임 포스팅 목록 화면 구성 (하윤)
-    - 독서모임 포스팅 등록 화면 구성 (하윤)
-    - 게시글 상세페이지 완성 (수민)
+ - FE
+   - Openvidu-library-react 예제 우리 프로젝트에 적용 성공 (다은)
+   - 회원정보조회 리팩토링 (하윤)
+   - 독서모임 포스팅 목록 화면 구성 (하윤)
+   - 독서모임 포스팅 등록 화면 구성 (하윤)
+   - 게시글 상세페이지 완성 (수민)
 
   - BE
     - 서버 배포 스크립트 작성 (경석)
