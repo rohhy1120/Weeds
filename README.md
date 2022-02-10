@@ -69,8 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-
-•	작일 완료된 업무
+- 작일 완료된 업무
  - FE
    -Openvidu-library-react 예제 우리 프로젝트에 적용 성공 (다은)
    - 회원정보조회 리팩토링 (하윤)
@@ -86,7 +85,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - ec2에 오픈비두 삭제 후 재설치 (은선, 재경)
   - ec2 포트 오픈 (은선, 재경)
 
-•	금일 진행 예정 업무
+- 금일 진행 예정 업무
  - FE
   - Openvidu-library-react 예제 적용으로 깨진 스타일 모든 컴포넌트 재작업 (다은)
   - 하트 누른 북로그 목록 코드 구현 (하윤)
@@ -96,7 +95,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
   - 원점으로 돌아왔기 때문에 건드려보지 않은 곳을 하나하나 밟아갈 예정 (은선)
   - 오픈비두 오류 원인 찾기, 해결 (재경)
 
-•	현재 프로젝트 이슈
+- 현재 프로젝트 이슈
  - FE
   - 스타일 재작업을 우선 openvidu 적용 브랜치를 merge 시킨 다음 해야할지 고민 중 (다은)
   - '하트 누른 북로그 목록' 와이어프레임에 없음 --> 마이페이지에서 볼 수 있도록 하는 것으로 경석님과 협의됨 (하윤)
